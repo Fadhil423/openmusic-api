@@ -17,7 +17,7 @@ const mapDBToModelSongs = ({
   performer,
   genre,
   duration,
-  albumId,
+  album_id,
 }) => ({
   id,
   title,
@@ -25,7 +25,7 @@ const mapDBToModelSongs = ({
   performer,
   genre,
   duration,
-  albumId,
+  albumId: album_id,
 });
 
 const mapDBToModelUsers = ({
